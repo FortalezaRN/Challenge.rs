@@ -1,0 +1,80 @@
+.modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.modal.show-modal{
+  opacity: 1;
+}
+
+.modal .modal-container{
+  width: 100%;
+  max-width: 1006px;
+  max-height: 503px;
+  background-color: #FFF;
+  display: flex;
+}
+
+.modal .modal-container .modal-img{
+  width: 50%;
+  max-height: 503px;
+  overflow: hidden;
+}
+
+.modal .modal-container .modal-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.modal .modal-container .btn-close{
+  display: block;
+  float: right;
+  margin-top: 21px;
+  margin-right: 21px;
+}
+.modal .modal-container .btn-close button{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal .modal-container .modal-info-container{
+  padding: 32px 30px 27px ;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal .modal-container .modal-info-container .modal-info h4{
+  line-height: 24px;
+}
+
+.modal .modal-container .modal-info-container .modal-info .font-normal{
+  margin: 10px 0 24px;
+  font-weight: normal;
+}
+
+.modal .modal-container .modal-info-container .modal-btns button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal .modal-container .modal-info-container .modal-btns button:first-child {
+  margin-right: 16px;
+}
+
+.modal .modal-container .modal-info-container .modal-btns button:focus {
+  outline: none;
+}

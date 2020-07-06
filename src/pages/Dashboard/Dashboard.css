@@ -1,0 +1,29 @@
+.container-dashboard{
+  width: 100%;
+  padding: 44px 32px 32px;
+}
+
+.container-dashboard .main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-dashboard .container-nevers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-dashboard .container-nevers ul{
+  list-style: none;
+  margin-top: 36px;
+  display: flex;
+  overflow-y: auto;
+  padding-bottom: 20px;
+
+}
+
+.container-dashboard .container-nevers ul li{
+  margin-right: 32px;
+}

@@ -1,0 +1,28 @@
+.container-new-naver{
+  width: 100%;
+  padding: 44px 0px 32px;
+  margin: auto;
+  max-width: 592px;
+}
+
+.container-new-naver .main-header{
+  display: flex;
+  align-items: center;
+  
+}
+
+.container-new-naver .main-header a{
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.container-new-naver .container-form{
+  margin: auto;
+}
+
+@media only screen and (max-width: 630px){
+  .container-new-naver{
+    padding: 44px 24px 32px;
+  }
+}

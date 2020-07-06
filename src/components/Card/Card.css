@@ -1,0 +1,39 @@
+.container-card{
+  /* display: flex; */
+  cursor: pointer;
+}
+
+.container-card .card-info{
+  margin-top: 16px;
+}
+
+.container-card .card-img{
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+}
+
+.container-card .card-img img{
+  height: 100%;
+}
+
+.container-card .card-info .font-normal{
+  margin: 4px 0 13px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+
+.container-card .card-info .card-btns button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.container-card .card-info .card-btns button:first-child {
+  margin-right: 16px;
+}
+
+.container-card .card-info .card-btns button:focus {
+  outline: none;
+}

@@ -1,0 +1,25 @@
+.form-naver{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.form-naver .field{  
+  width: 280px;
+}
+
+.form-naver .field:last-child{  
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+}
+
+@media only screen and (max-width: 630px){
+  .form-naver .field{  
+    width: 100%;
+  }
+
+  .form-naver .field button{  
+    max-width: 100%;
+  }
+}
