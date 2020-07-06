@@ -37,12 +37,6 @@ const EditNaver = (props: Props) => {
     return dayF+"/"+monthF+"/"+year;
   }
 
-  // const data = {
-  //   ...props.location.state.data,
-  //   admission_date: dataAtualFormatada(props.location.state.data.admission_date),
-  //   birthdate: dataAtualFormatada(props.location.state.data.birthdate),
-  // };
-
   const [formData, setFormData] = useState<NaverData>({
     job_role: "",
     admission_date: "",

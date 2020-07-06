@@ -17,8 +17,6 @@ interface Naver {
   url: string;
 }
 
-// interface Props
-
 const Dashboard = () => {
   const history = useHistory();
   const [navers, setNavers] = useState<Naver[]>([])
